@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.main {
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+    height: 830px;
+    background-image: url('imagenes/fondoNetflix.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+    border-bottom: 8px solid #222;
+}
+
+.barra {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 42px;
+    width: 170px;
+    height: 67px;
+}
+
+.btn {
+    margin-right: 50px;
+    margin-top: 35px;
+    width: 130px;
+    height: 35px;
+    color: white !important;
+    text-align: center;
+    float: right;
+    background-color: #e50914 !important;
+    border-radius: 3px;
+
+}
+
+.idioma {
+    float: right;
+    margin: 35px 20px 0px 0px;
+}
+
+.registro {
+    width: 950px;
+    height: 578px;
+    margin: 0 auto;
+    padding: 75px 0px;
+
+}
+
+.titulo {
+    margin-top: 40px;
+    width: 640px;
+    height: 211px;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.frase {
+    width: 800px;
+    height: 31px;
+    font-size: 26px;
+    color: white;
+    margin: 40px 75px;
+    text-align: center;
+}
+
+.frase2 {
+
+    height: 42px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px 45px;
+    padding: 0px 30px 20px;
+}
+
+.correo {
+    width: 500px;
+    height: 70px;
+}
+
+.empezar {
+    width: 209px;
+    height: 70px;
+    margin: 0 !important;
+    font-size: 30px !important;
+    border-radius: 2px !important;
+
+}
+
+.empezar:focus {
+    box-shadow: none !important;
+}
+
+.inicioSesion {
+    width: 709px;
+    margin: 0 auto;
+}
+
+.seccion {
+    height: 473px;
+    width: 1903px;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-bottom: 8px solid #222;
+}
+
+.texto {
+    padding-top: 110px;
+    width: 595px;
+    height: 235px;
+    margin: 0;
+}
+
+.texto h2 {
+    width: 540px;
+    height: 110px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.texto h3 {
+    width: 520px;
+    height: 99px;
+    font-size: 26px;
+}
+
+.imagenuno {
+    width: 504px;
+    height: 378px;
+    margin-right: 60px;
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.imagenuno img {
+    position: relative;
+    width: 530px;
+    height: 397px;
+    margin-top: -40px;
+}
+
+.video2 {
+    position: absolute;
+    width: 390px;
+    height: 240px;
+    margin-left: 65px;
+    margin-top: 30px;
+
+}
+
+.imagendos {
+    width: 504px;
+    height: 378px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.imagentres {
+    width: 504px;
+    height: 378px;
+    margin-right: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.video {
+    position: relative;
+    width: 314px;
+    height: 220px;
+    margin-left: 96px;
+    padding-top: 20px;
+}
+
+.marco {
+    width: 504px;
+    height: 378px;
+    margin-top: -230px;
+    position: absolute;
+}
+
+.imagencuatro img {
+    width: 504px !important;
+    height: 378px !important;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+.textocuatro {
+    margin-bottom: -35px !important;
+}
+
+.preguntas {
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+
+.pregfrec {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 70px 0px;
+}
+
+.accordion {
+    margin: 0 auto;
+    width: 815px;
+    background-color: black !important;
+}
+
+.accordion-item {
+    border-radius: none !important;
+}
+
+.accordion button {
+    background-color: #303030;
+    margin-top: 9px;
+    height: 72px;
+    font-size: 26px;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    background-color: #303030;
+    font-size: 26px;
+    width: 815px;
+    padding: 37px !important;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    border-bottom: none !important;
+    height: 426px !important;
+}
+
+footer a {
+    color: #757575 !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    margin: 10px 0px !important;
+}
+
+.pregunt {
+    margin-bottom: 6px;
+    color: #757575;
+    padding-top: 43px;
+}
+
+.form-select {
+    border-color: #757575 !important;
+    background-color: black !important;
+}
+
+.fin {
+    padding-top: 8px;
+    color: #757575;
+}

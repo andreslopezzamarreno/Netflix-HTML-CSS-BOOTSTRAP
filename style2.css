@@ -1,0 +1,111 @@
+body {
+    background-color: black !important;
+}
+* {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.logo {
+    width: 100px;
+    height: 40px;
+    margin: 0px 35px 0px 80px;
+}
+.todo{
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+.navbar{
+    padding-top: 20px !important;
+    position: relative;
+}
+
+.video{
+    position: absolute;  
+}
+.nav-item {
+    margin-right: 20px;
+}
+.navbar-text {
+    flex-wrap: wrap-reverse;
+}
+.infantil{
+    margin-right: 50px;
+    float: right;
+}
+.infantil img{
+    margin-left: 10px;
+    width: 30px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.video-container {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.video-container .caption {
+    margin-left: -30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.botones .btn{
+    width: 250px;
+    height: 55px;
+    font-size: 25px;
+}
+
+.botones{
+    margin-top: -70px;
+}
+
+.carruseles {
+    padding-top: 30px;
+    height: 540px;
+    background-image: url("imagenes/peaky3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.row {
+    width: 100%;
+    padding-left: 80px;
+}
+
+.col {
+    padding: 0 !important;
+}
+
+.row img {
+    width: 300px;
+    height: 170px;
+    border-radius: 4px !important;
+}
+
+.foto {
+    transition: all 200ms;
+}
+
+.foto:hover {
+    transform: scale(1.15);
+}
+
+.carrusel {
+    width: 100%;
+    color: white;
+}
+
+.carrusel h2 {
+    font-size: 24px;
+    padding-left: 80px;
+    margin: 20px 0px
+}
